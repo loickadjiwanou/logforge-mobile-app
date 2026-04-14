@@ -1,0 +1,50 @@
+# ── Dependencies ──────────────────────────────────────────────
+node_modules/
+
+# ── Expo ───────────────────────────────────────────────────────
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# ── Generated native folders (EAS / prebuild) ──────────────────
+/ios
+/android
+.kotlin/
+
+# ── Environment variables ──────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Native signing & certificates ──────────────────────────────
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# ── Metro bundler ──────────────────────────────────────────────
+.metro-health-check*
+
+# ── TypeScript ─────────────────────────────────────────────────
+*.tsbuildinfo
+
+# ── Logs ───────────────────────────────────────────────────────
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# ── OS ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editors ────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sw?
+
+# ── Expo example scaffold (if kept) ────────────────────────────
+app-example/
