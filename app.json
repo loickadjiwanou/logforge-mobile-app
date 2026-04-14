@@ -1,7 +1,9 @@
 {
   "expo": {
     "name": "LogForge",
-    "slug": "log-forge",
+    "slug": "logforge",
+    "owner": "loickadjiwanou",
+    "githubUrl": "https://github.com/loickadjiwanou/logforge-mobile-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
